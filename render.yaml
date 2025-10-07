@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: book-review-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host

@@ -1,0 +1,41 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution/build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+
+# Testing & type-checking
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Editors/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
