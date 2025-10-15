@@ -1,7 +1,8 @@
 fastapi
 uvicorn
-sqlalchemy 
+sqlalchemy==2.0.44
 PyJWT 
 python-dotenv 
 pydantic
+email-validator==2.3.0
 argon2-cffi
