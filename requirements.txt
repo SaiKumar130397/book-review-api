@@ -6,3 +6,4 @@ python-dotenv
 pydantic[email]
 email-validator==2.3.0
 argon2-cffi
+psycopg2-binary
